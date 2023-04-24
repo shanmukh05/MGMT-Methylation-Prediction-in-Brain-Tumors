@@ -1,0 +1,928 @@
+{
+    "training": [
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00539/BraTS2021_00539_t1.nii.gz",
+                "TrainingData/BraTS2021_00539/BraTS2021_00539_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00539/BraTS2021_00539_t2.nii.gz",
+                "TrainingData/BraTS2021_00539/BraTS2021_00539_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00539/BraTS2021_00539_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00539"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00683/BraTS2021_00683_t1.nii.gz",
+                "TrainingData/BraTS2021_00683/BraTS2021_00683_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00683/BraTS2021_00683_t2.nii.gz",
+                "TrainingData/BraTS2021_00683/BraTS2021_00683_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00683/BraTS2021_00683_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00683"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00703/BraTS2021_00703_t1.nii.gz",
+                "TrainingData/BraTS2021_00703/BraTS2021_00703_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00703/BraTS2021_00703_t2.nii.gz",
+                "TrainingData/BraTS2021_00703/BraTS2021_00703_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00703/BraTS2021_00703_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00703"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00104/BraTS2021_00104_t1.nii.gz",
+                "TrainingData/BraTS2021_00104/BraTS2021_00104_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00104/BraTS2021_00104_t2.nii.gz",
+                "TrainingData/BraTS2021_00104/BraTS2021_00104_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00104/BraTS2021_00104_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00104"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00201/BraTS2021_00201_t1.nii.gz",
+                "TrainingData/BraTS2021_00201/BraTS2021_00201_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00201/BraTS2021_00201_t2.nii.gz",
+                "TrainingData/BraTS2021_00201/BraTS2021_00201_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00201/BraTS2021_00201_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00201"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00088/BraTS2021_00088_t1.nii.gz",
+                "TrainingData/BraTS2021_00088/BraTS2021_00088_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00088/BraTS2021_00088_t2.nii.gz",
+                "TrainingData/BraTS2021_00088/BraTS2021_00088_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00088/BraTS2021_00088_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00088"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00234/BraTS2021_00234_t1.nii.gz",
+                "TrainingData/BraTS2021_00234/BraTS2021_00234_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00234/BraTS2021_00234_t2.nii.gz",
+                "TrainingData/BraTS2021_00234/BraTS2021_00234_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00234/BraTS2021_00234_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00234"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00060/BraTS2021_00060_t1.nii.gz",
+                "TrainingData/BraTS2021_00060/BraTS2021_00060_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00060/BraTS2021_00060_t2.nii.gz",
+                "TrainingData/BraTS2021_00060/BraTS2021_00060_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00060/BraTS2021_00060_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00060"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00661/BraTS2021_00661_t1.nii.gz",
+                "TrainingData/BraTS2021_00661/BraTS2021_00661_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00661/BraTS2021_00661_t2.nii.gz",
+                "TrainingData/BraTS2021_00661/BraTS2021_00661_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00661/BraTS2021_00661_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00661"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00619/BraTS2021_00619_t1.nii.gz",
+                "TrainingData/BraTS2021_00619/BraTS2021_00619_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00619/BraTS2021_00619_t2.nii.gz",
+                "TrainingData/BraTS2021_00619/BraTS2021_00619_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00619/BraTS2021_00619_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00619"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00816/BraTS2021_00816_t1.nii.gz",
+                "TrainingData/BraTS2021_00816/BraTS2021_00816_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00816/BraTS2021_00816_t2.nii.gz",
+                "TrainingData/BraTS2021_00816/BraTS2021_00816_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00816/BraTS2021_00816_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00816"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00459/BraTS2021_00459_t1.nii.gz",
+                "TrainingData/BraTS2021_00459/BraTS2021_00459_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00459/BraTS2021_00459_t2.nii.gz",
+                "TrainingData/BraTS2021_00459/BraTS2021_00459_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00459/BraTS2021_00459_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00459"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00005/BraTS2021_00005_t1.nii.gz",
+                "TrainingData/BraTS2021_00005/BraTS2021_00005_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00005/BraTS2021_00005_t2.nii.gz",
+                "TrainingData/BraTS2021_00005/BraTS2021_00005_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00005/BraTS2021_00005_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00005"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00109/BraTS2021_00109_t1.nii.gz",
+                "TrainingData/BraTS2021_00109/BraTS2021_00109_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00109/BraTS2021_00109_t2.nii.gz",
+                "TrainingData/BraTS2021_00109/BraTS2021_00109_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00109/BraTS2021_00109_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00109"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00429/BraTS2021_00429_t1.nii.gz",
+                "TrainingData/BraTS2021_00429/BraTS2021_00429_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00429/BraTS2021_00429_t2.nii.gz",
+                "TrainingData/BraTS2021_00429/BraTS2021_00429_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00429/BraTS2021_00429_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00429"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00049/BraTS2021_00049_t1.nii.gz",
+                "TrainingData/BraTS2021_00049/BraTS2021_00049_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00049/BraTS2021_00049_t2.nii.gz",
+                "TrainingData/BraTS2021_00049/BraTS2021_00049_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00049/BraTS2021_00049_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00049"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00291/BraTS2021_00291_t1.nii.gz",
+                "TrainingData/BraTS2021_00291/BraTS2021_00291_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00291/BraTS2021_00291_t2.nii.gz",
+                "TrainingData/BraTS2021_00291/BraTS2021_00291_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00291/BraTS2021_00291_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00291"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00668/BraTS2021_00668_t1.nii.gz",
+                "TrainingData/BraTS2021_00668/BraTS2021_00668_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00668/BraTS2021_00668_t2.nii.gz",
+                "TrainingData/BraTS2021_00668/BraTS2021_00668_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00668/BraTS2021_00668_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00668"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00837/BraTS2021_00837_t1.nii.gz",
+                "TrainingData/BraTS2021_00837/BraTS2021_00837_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00837/BraTS2021_00837_t2.nii.gz",
+                "TrainingData/BraTS2021_00837/BraTS2021_00837_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00837/BraTS2021_00837_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00837"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00008/BraTS2021_00008_t1.nii.gz",
+                "TrainingData/BraTS2021_00008/BraTS2021_00008_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00008/BraTS2021_00008_t2.nii.gz",
+                "TrainingData/BraTS2021_00008/BraTS2021_00008_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00008/BraTS2021_00008_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00008"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00425/BraTS2021_00425_t1.nii.gz",
+                "TrainingData/BraTS2021_00425/BraTS2021_00425_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00425/BraTS2021_00425_t2.nii.gz",
+                "TrainingData/BraTS2021_00425/BraTS2021_00425_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00425/BraTS2021_00425_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00425"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00176/BraTS2021_00176_t1.nii.gz",
+                "TrainingData/BraTS2021_00176/BraTS2021_00176_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00176/BraTS2021_00176_t2.nii.gz",
+                "TrainingData/BraTS2021_00176/BraTS2021_00176_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00176/BraTS2021_00176_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00176"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00736/BraTS2021_00736_t1.nii.gz",
+                "TrainingData/BraTS2021_00736/BraTS2021_00736_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00736/BraTS2021_00736_t2.nii.gz",
+                "TrainingData/BraTS2021_00736/BraTS2021_00736_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00736/BraTS2021_00736_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00736"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00165/BraTS2021_00165_t1.nii.gz",
+                "TrainingData/BraTS2021_00165/BraTS2021_00165_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00165/BraTS2021_00165_t2.nii.gz",
+                "TrainingData/BraTS2021_00165/BraTS2021_00165_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00165/BraTS2021_00165_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00165"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00797/BraTS2021_00797_t1.nii.gz",
+                "TrainingData/BraTS2021_00797/BraTS2021_00797_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00797/BraTS2021_00797_t2.nii.gz",
+                "TrainingData/BraTS2021_00797/BraTS2021_00797_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00797/BraTS2021_00797_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00797"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00400/BraTS2021_00400_t1.nii.gz",
+                "TrainingData/BraTS2021_00400/BraTS2021_00400_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00400/BraTS2021_00400_t2.nii.gz",
+                "TrainingData/BraTS2021_00400/BraTS2021_00400_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00400/BraTS2021_00400_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00400"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00220/BraTS2021_00220_t1.nii.gz",
+                "TrainingData/BraTS2021_00220/BraTS2021_00220_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00220/BraTS2021_00220_t2.nii.gz",
+                "TrainingData/BraTS2021_00220/BraTS2021_00220_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00220/BraTS2021_00220_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00220"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00284/BraTS2021_00284_t1.nii.gz",
+                "TrainingData/BraTS2021_00284/BraTS2021_00284_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00284/BraTS2021_00284_t2.nii.gz",
+                "TrainingData/BraTS2021_00284/BraTS2021_00284_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00284/BraTS2021_00284_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00284"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00221/BraTS2021_00221_t1.nii.gz",
+                "TrainingData/BraTS2021_00221/BraTS2021_00221_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00221/BraTS2021_00221_t2.nii.gz",
+                "TrainingData/BraTS2021_00221/BraTS2021_00221_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00221/BraTS2021_00221_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00221"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00480/BraTS2021_00480_t1.nii.gz",
+                "TrainingData/BraTS2021_00480/BraTS2021_00480_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00480/BraTS2021_00480_t2.nii.gz",
+                "TrainingData/BraTS2021_00480/BraTS2021_00480_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00480/BraTS2021_00480_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00480"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00298/BraTS2021_00298_t1.nii.gz",
+                "TrainingData/BraTS2021_00298/BraTS2021_00298_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00298/BraTS2021_00298_t2.nii.gz",
+                "TrainingData/BraTS2021_00298/BraTS2021_00298_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00298/BraTS2021_00298_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00298"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00068/BraTS2021_00068_t1.nii.gz",
+                "TrainingData/BraTS2021_00068/BraTS2021_00068_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00068/BraTS2021_00068_t2.nii.gz",
+                "TrainingData/BraTS2021_00068/BraTS2021_00068_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00068/BraTS2021_00068_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00068"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00706/BraTS2021_00706_t1.nii.gz",
+                "TrainingData/BraTS2021_00706/BraTS2021_00706_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00706/BraTS2021_00706_t2.nii.gz",
+                "TrainingData/BraTS2021_00706/BraTS2021_00706_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00706/BraTS2021_00706_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00706"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00537/BraTS2021_00537_t1.nii.gz",
+                "TrainingData/BraTS2021_00537/BraTS2021_00537_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00537/BraTS2021_00537_t2.nii.gz",
+                "TrainingData/BraTS2021_00537/BraTS2021_00537_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00537/BraTS2021_00537_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00537"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00775/BraTS2021_00775_t1.nii.gz",
+                "TrainingData/BraTS2021_00775/BraTS2021_00775_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00775/BraTS2021_00775_t2.nii.gz",
+                "TrainingData/BraTS2021_00775/BraTS2021_00775_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00775/BraTS2021_00775_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00775"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00667/BraTS2021_00667_t1.nii.gz",
+                "TrainingData/BraTS2021_00667/BraTS2021_00667_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00667/BraTS2021_00667_t2.nii.gz",
+                "TrainingData/BraTS2021_00667/BraTS2021_00667_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00667/BraTS2021_00667_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00667"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00242/BraTS2021_00242_t1.nii.gz",
+                "TrainingData/BraTS2021_00242/BraTS2021_00242_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00242/BraTS2021_00242_t2.nii.gz",
+                "TrainingData/BraTS2021_00242/BraTS2021_00242_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00242/BraTS2021_00242_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00242"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00297/BraTS2021_00297_t1.nii.gz",
+                "TrainingData/BraTS2021_00297/BraTS2021_00297_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00297/BraTS2021_00297_t2.nii.gz",
+                "TrainingData/BraTS2021_00297/BraTS2021_00297_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00297/BraTS2021_00297_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00297"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00565/BraTS2021_00565_t1.nii.gz",
+                "TrainingData/BraTS2021_00565/BraTS2021_00565_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00565/BraTS2021_00565_t2.nii.gz",
+                "TrainingData/BraTS2021_00565/BraTS2021_00565_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00565/BraTS2021_00565_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00565"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00340/BraTS2021_00340_t1.nii.gz",
+                "TrainingData/BraTS2021_00340/BraTS2021_00340_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00340/BraTS2021_00340_t2.nii.gz",
+                "TrainingData/BraTS2021_00340/BraTS2021_00340_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00340/BraTS2021_00340_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00340"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00789/BraTS2021_00789_t1.nii.gz",
+                "TrainingData/BraTS2021_00789/BraTS2021_00789_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00789/BraTS2021_00789_t2.nii.gz",
+                "TrainingData/BraTS2021_00789/BraTS2021_00789_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00789/BraTS2021_00789_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00789"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00347/BraTS2021_00347_t1.nii.gz",
+                "TrainingData/BraTS2021_00347/BraTS2021_00347_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00347/BraTS2021_00347_t2.nii.gz",
+                "TrainingData/BraTS2021_00347/BraTS2021_00347_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00347/BraTS2021_00347_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00347"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00370/BraTS2021_00370_t1.nii.gz",
+                "TrainingData/BraTS2021_00370/BraTS2021_00370_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00370/BraTS2021_00370_t2.nii.gz",
+                "TrainingData/BraTS2021_00370/BraTS2021_00370_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00370/BraTS2021_00370_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00370"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00449/BraTS2021_00449_t1.nii.gz",
+                "TrainingData/BraTS2021_00449/BraTS2021_00449_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00449/BraTS2021_00449_t2.nii.gz",
+                "TrainingData/BraTS2021_00449/BraTS2021_00449_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00449/BraTS2021_00449_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00449"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00555/BraTS2021_00555_t1.nii.gz",
+                "TrainingData/BraTS2021_00555/BraTS2021_00555_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00555/BraTS2021_00555_t2.nii.gz",
+                "TrainingData/BraTS2021_00555/BraTS2021_00555_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00555/BraTS2021_00555_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00555"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00386/BraTS2021_00386_t1.nii.gz",
+                "TrainingData/BraTS2021_00386/BraTS2021_00386_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00386/BraTS2021_00386_t2.nii.gz",
+                "TrainingData/BraTS2021_00386/BraTS2021_00386_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00386/BraTS2021_00386_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00386"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00716/BraTS2021_00716_t1.nii.gz",
+                "TrainingData/BraTS2021_00716/BraTS2021_00716_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00716/BraTS2021_00716_t2.nii.gz",
+                "TrainingData/BraTS2021_00716/BraTS2021_00716_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00716/BraTS2021_00716_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00716"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00657/BraTS2021_00657_t1.nii.gz",
+                "TrainingData/BraTS2021_00657/BraTS2021_00657_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00657/BraTS2021_00657_t2.nii.gz",
+                "TrainingData/BraTS2021_00657/BraTS2021_00657_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00657/BraTS2021_00657_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00657"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00800/BraTS2021_00800_t1.nii.gz",
+                "TrainingData/BraTS2021_00800/BraTS2021_00800_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00800/BraTS2021_00800_t2.nii.gz",
+                "TrainingData/BraTS2021_00800/BraTS2021_00800_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00800/BraTS2021_00800_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00800"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00746/BraTS2021_00746_t1.nii.gz",
+                "TrainingData/BraTS2021_00746/BraTS2021_00746_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00746/BraTS2021_00746_t2.nii.gz",
+                "TrainingData/BraTS2021_00746/BraTS2021_00746_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00746/BraTS2021_00746_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00746"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00266/BraTS2021_00266_t1.nii.gz",
+                "TrainingData/BraTS2021_00266/BraTS2021_00266_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00266/BraTS2021_00266_t2.nii.gz",
+                "TrainingData/BraTS2021_00266/BraTS2021_00266_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00266/BraTS2021_00266_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00266"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00236/BraTS2021_00236_t1.nii.gz",
+                "TrainingData/BraTS2021_00236/BraTS2021_00236_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00236/BraTS2021_00236_t2.nii.gz",
+                "TrainingData/BraTS2021_00236/BraTS2021_00236_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00236/BraTS2021_00236_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00236"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00469/BraTS2021_00469_t1.nii.gz",
+                "TrainingData/BraTS2021_00469/BraTS2021_00469_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00469/BraTS2021_00469_t2.nii.gz",
+                "TrainingData/BraTS2021_00469/BraTS2021_00469_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00469/BraTS2021_00469_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00469"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00403/BraTS2021_00403_t1.nii.gz",
+                "TrainingData/BraTS2021_00403/BraTS2021_00403_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00403/BraTS2021_00403_t2.nii.gz",
+                "TrainingData/BraTS2021_00403/BraTS2021_00403_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00403/BraTS2021_00403_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00403"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00350/BraTS2021_00350_t1.nii.gz",
+                "TrainingData/BraTS2021_00350/BraTS2021_00350_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00350/BraTS2021_00350_t2.nii.gz",
+                "TrainingData/BraTS2021_00350/BraTS2021_00350_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00350/BraTS2021_00350_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00350"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00332/BraTS2021_00332_t1.nii.gz",
+                "TrainingData/BraTS2021_00332/BraTS2021_00332_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00332/BraTS2021_00332_t2.nii.gz",
+                "TrainingData/BraTS2021_00332/BraTS2021_00332_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00332/BraTS2021_00332_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00332"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00472/BraTS2021_00472_t1.nii.gz",
+                "TrainingData/BraTS2021_00472/BraTS2021_00472_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00472/BraTS2021_00472_t2.nii.gz",
+                "TrainingData/BraTS2021_00472/BraTS2021_00472_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00472/BraTS2021_00472_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00472"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00436/BraTS2021_00436_t1.nii.gz",
+                "TrainingData/BraTS2021_00436/BraTS2021_00436_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00436/BraTS2021_00436_t2.nii.gz",
+                "TrainingData/BraTS2021_00436/BraTS2021_00436_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00436/BraTS2021_00436_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00436"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00348/BraTS2021_00348_t1.nii.gz",
+                "TrainingData/BraTS2021_00348/BraTS2021_00348_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00348/BraTS2021_00348_t2.nii.gz",
+                "TrainingData/BraTS2021_00348/BraTS2021_00348_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00348/BraTS2021_00348_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00348"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00306/BraTS2021_00306_t1.nii.gz",
+                "TrainingData/BraTS2021_00306/BraTS2021_00306_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00306/BraTS2021_00306_t2.nii.gz",
+                "TrainingData/BraTS2021_00306/BraTS2021_00306_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00306/BraTS2021_00306_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00306"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00652/BraTS2021_00652_t1.nii.gz",
+                "TrainingData/BraTS2021_00652/BraTS2021_00652_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00652/BraTS2021_00652_t2.nii.gz",
+                "TrainingData/BraTS2021_00652/BraTS2021_00652_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00652/BraTS2021_00652_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00652"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00324/BraTS2021_00324_t1.nii.gz",
+                "TrainingData/BraTS2021_00324/BraTS2021_00324_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00324/BraTS2021_00324_t2.nii.gz",
+                "TrainingData/BraTS2021_00324/BraTS2021_00324_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00324/BraTS2021_00324_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00324"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00780/BraTS2021_00780_t1.nii.gz",
+                "TrainingData/BraTS2021_00780/BraTS2021_00780_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00780/BraTS2021_00780_t2.nii.gz",
+                "TrainingData/BraTS2021_00780/BraTS2021_00780_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00780/BraTS2021_00780_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00780"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00066/BraTS2021_00066_t1.nii.gz",
+                "TrainingData/BraTS2021_00066/BraTS2021_00066_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00066/BraTS2021_00066_t2.nii.gz",
+                "TrainingData/BraTS2021_00066/BraTS2021_00066_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00066/BraTS2021_00066_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00066"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00366/BraTS2021_00366_t1.nii.gz",
+                "TrainingData/BraTS2021_00366/BraTS2021_00366_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00366/BraTS2021_00366_t2.nii.gz",
+                "TrainingData/BraTS2021_00366/BraTS2021_00366_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00366/BraTS2021_00366_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00366"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00286/BraTS2021_00286_t1.nii.gz",
+                "TrainingData/BraTS2021_00286/BraTS2021_00286_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00286/BraTS2021_00286_t2.nii.gz",
+                "TrainingData/BraTS2021_00286/BraTS2021_00286_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00286/BraTS2021_00286_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00286"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00615/BraTS2021_00615_t1.nii.gz",
+                "TrainingData/BraTS2021_00615/BraTS2021_00615_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00615/BraTS2021_00615_t2.nii.gz",
+                "TrainingData/BraTS2021_00615/BraTS2021_00615_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00615/BraTS2021_00615_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00615"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00618/BraTS2021_00618_t1.nii.gz",
+                "TrainingData/BraTS2021_00618/BraTS2021_00618_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00618/BraTS2021_00618_t2.nii.gz",
+                "TrainingData/BraTS2021_00618/BraTS2021_00618_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00618/BraTS2021_00618_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00618"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00416/BraTS2021_00416_t1.nii.gz",
+                "TrainingData/BraTS2021_00416/BraTS2021_00416_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00416/BraTS2021_00416_t2.nii.gz",
+                "TrainingData/BraTS2021_00416/BraTS2021_00416_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00416/BraTS2021_00416_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00416"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00680/BraTS2021_00680_t1.nii.gz",
+                "TrainingData/BraTS2021_00680/BraTS2021_00680_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00680/BraTS2021_00680_t2.nii.gz",
+                "TrainingData/BraTS2021_00680/BraTS2021_00680_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00680/BraTS2021_00680_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00680"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00659/BraTS2021_00659_t1.nii.gz",
+                "TrainingData/BraTS2021_00659/BraTS2021_00659_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00659/BraTS2021_00659_t2.nii.gz",
+                "TrainingData/BraTS2021_00659/BraTS2021_00659_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00659/BraTS2021_00659_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00659"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00782/BraTS2021_00782_t1.nii.gz",
+                "TrainingData/BraTS2021_00782/BraTS2021_00782_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00782/BraTS2021_00782_t2.nii.gz",
+                "TrainingData/BraTS2021_00782/BraTS2021_00782_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00782/BraTS2021_00782_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00782"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00730/BraTS2021_00730_t1.nii.gz",
+                "TrainingData/BraTS2021_00730/BraTS2021_00730_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00730/BraTS2021_00730_t2.nii.gz",
+                "TrainingData/BraTS2021_00730/BraTS2021_00730_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00730/BraTS2021_00730_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00730"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00454/BraTS2021_00454_t1.nii.gz",
+                "TrainingData/BraTS2021_00454/BraTS2021_00454_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00454/BraTS2021_00454_t2.nii.gz",
+                "TrainingData/BraTS2021_00454/BraTS2021_00454_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00454/BraTS2021_00454_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00454"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00715/BraTS2021_00715_t1.nii.gz",
+                "TrainingData/BraTS2021_00715/BraTS2021_00715_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00715/BraTS2021_00715_t2.nii.gz",
+                "TrainingData/BraTS2021_00715/BraTS2021_00715_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00715/BraTS2021_00715_seg.nii.gz",
+            "mgmt_label": 1,
+            "id": "00715"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00729/BraTS2021_00729_t1.nii.gz",
+                "TrainingData/BraTS2021_00729/BraTS2021_00729_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00729/BraTS2021_00729_t2.nii.gz",
+                "TrainingData/BraTS2021_00729/BraTS2021_00729_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00729/BraTS2021_00729_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00729"
+        },
+        {
+            "fold": 1,
+            "image": [
+                "TrainingData/BraTS2021_00684/BraTS2021_00684_t1.nii.gz",
+                "TrainingData/BraTS2021_00684/BraTS2021_00684_t1ce.nii.gz",
+                "TrainingData/BraTS2021_00684/BraTS2021_00684_t2.nii.gz",
+                "TrainingData/BraTS2021_00684/BraTS2021_00684_flair.nii.gz"
+            ],
+            "label": "TrainingData/BraTS2021_00684/BraTS2021_00684_seg.nii.gz",
+            "mgmt_label": 0,
+            "id": "00684"
+        }
+    ]
+}

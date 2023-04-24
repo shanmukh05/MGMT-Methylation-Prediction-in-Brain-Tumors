@@ -1,0 +1,93 @@
+---------------------------------------------------------------------------------------------
+Alpha: 0.0
+Model: 
+'''
+    Encoder 4 Output
+        self.mgmt_conv = nn.Sequential(
+                                nn.Conv3d(4*feature_size, 8*feature_size, kernel_size=3),
+                                nn.AdaptiveAvgPool3d((1,1,1))
+        )
+        self.mgmt_fc = nn.Sequential(
+                                nn.Linear(8*feature_size, 1)
+        )
+'''
+ROC AUC Score on Test Dataset: 0.5653061224489797
+Dice Scores on Test Dataset
+Dice WT: 0.9319318734206162, Dice TC: 0.93510730777468, Dice ET: 0.8994488205228534
+-----------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+Alpha: 0.1
+Model: 
+'''
+    Encoder 4 Output
+        self.mgmt_conv = nn.Sequential(
+                                nn.Conv3d(4*feature_size, 8*feature_size, kernel_size=3),
+                                nn.AdaptiveAvgPool3d((1,1,1))
+        )
+        self.mgmt_fc = nn.Sequential(
+                                nn.Linear(8*feature_size, 1)
+        )
+'''
+ROC AUC Score on Test Dataset: 0.5564625850340136
+Dice Scores on Test Dataset
+Dice ET: 0.9219791238958185, Dice WT: 0.9298149834979664, Dice ET: 0.8903400185820344
+-----------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+Alpha: 0.2
+Model: 
+'''
+    Encoder 4 Output
+        self.mgmt_conv = nn.Sequential(
+                                nn.Conv3d(4*feature_size, 8*feature_size, kernel_size=3),
+                                nn.AdaptiveAvgPool3d((1,1,1))
+        )
+        self.mgmt_fc = nn.Sequential(
+                                nn.Linear(8*feature_size, 1)
+        )
+'''
+ROC AUC Score on Test Dataset: 0.5544217687074829
+Dice Scores on Test Dataset
+Dice ET: 0.8968034742714522, Dice WT: 0.9151333880114865, Dice ET: 0.8800058055233646
+-----------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+Alpha: 0.5
+Model: 
+'''
+    Encoder 4 Output
+        self.mgmt_conv = nn.Sequential(
+                                nn.Conv3d(4*feature_size, 8*feature_size, kernel_size=3),
+                                nn.AdaptiveAvgPool3d((1,1,1))
+        )
+        self.mgmt_fc = nn.Sequential(
+                                nn.Linear(8*feature_size, 1)
+        )
+'''
+ROC AUC Score on Test Dataset: 0.5428571428571429
+Dice Scores on Test Dataset
+Dice ET: 0.7413069512936976, Dice WT: 0.8541097377801871, Dice ET: 0.7818750042419929
+-----------------------------------------------------------------------------------------------
+
+
+---------------------------------------------------------------------------------------------
+Alpha: 0.8
+Model: 
+'''
+    Encoder 4 Output
+        self.mgmt_conv = nn.Sequential(
+                                nn.Conv3d(4*feature_size, 8*feature_size, kernel_size=3),
+                                nn.AdaptiveAvgPool3d((1,1,1))
+        )
+        self.mgmt_fc = nn.Sequential(
+                                nn.Linear(8*feature_size, 1)
+        )
+'''
+ROC AUC Score on Test Dataset: 0.5326530612244897
+Dice Scores on Test Dataset
+Dice ET: 0.896026365168683, Dice WT: 0.9215509295463562, Dice ET: 0.8761295235002196
+-----------------------------------------------------------------------------------------------
